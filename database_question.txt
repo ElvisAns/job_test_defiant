@@ -1,7 +1,18 @@
 Question 
 
-*You have a MySQL database that represents objects and triangles, where each object contains several triangles. There is a table for the objects, and a table for all the triangles contained in each object. The "objects" table has the columns "id" and "name". The "id" column is an auto incremented primary key. The "triangles" table has the columns "objectID", "side1" and "side2". "objectID" has a parent-child relationship to the "id" column in the objects table and defines which triangles are contained in each object. "side1" and "side2" in the "triangles" table are the length of the sides of a right-angled triangle adjacent to the hypotenuse in meters. Write a SQL query using "group by" that calculates the sum of all of the hypotenuses of triangles belonging to an object.
+*You have a MySQL database that represents objects and triangles, 
+where each object contains several triangles. There is a table for
+the objects, and a table for all the triangles contained in each object. 
+The "objects" table has the columns "id" and "name". The "id" column is 
+an auto incremented primary key. The "triangles" table has the columns 
+"objectID", "side1" and "side2". "objectID" has a parent-child relationship 
+to the "id" column in the objects table and defines which triangles are 
+contained in each object. "side1" and "side2" in the "triangles" table are 
+the length of the sides of a right-angled triangle adjacent to the hypotenuse 
+in meters. Write a SQL query using "group by" that calculates the sum of all 
+of the hypotenuses of triangles belonging to an object.
 
 Response : 
 
-SELECT objets.name as "object_name", SUM(ROUND(SQRT((side1*side1)+(side2*side2)),2)) sum_hypotenuses FROM objets INNER JOIN triangle ON triangle.objectID = objets.id GROUP BY triangle.objectID ;
+SELECT objets.name as "object_name", SUM(ROUND(SQRT((side1*side1)+(side2*side2)),2)) sum_hypotenuses FROM objets 
+INNER JOIN triangle ON triangle.objectID = objets.id GROUP BY triangle.objectID ;
