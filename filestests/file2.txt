@@ -1,0 +1,15 @@
+Parentheses are most often used to identify material that acts as an aside [such as this brief comment] or to add incidental information.
+
+Other punctuation marks used alongside parentheses need to take into account their context. If the parentheses enclose a full sentence beginning with a capital letter, then the end punctuation for the sentence falls inside the parentheses. For example:
+
+Typically, suppliers specify air to cloth ratios of 6:1 or higher. [However, ratios of 4:1 should be used for applications involving silica or feldspathic minerals.]
+
+If the parentheses indicate a citation at the end of a [sentence, [then the sentence’s end punctuation] comes after the parentheses are closed:
+
+In a study comparing three different building types, respirable dust concentrations were significantly lower in the open-structure building (Hugh et al., 2005).
+
+Finally, if the parentheses appear in the midst of a sentence (as in this example), then any necessary punctuation (such as the comma that appeared just a few words ago) is delayed until the parentheses are closed.
+
+You can also use parentheses to provide acronyms (or full names for acronyms). For example, “We use the MLA (Modern Language Association) style guide here” or “The Modern Language Association (MLA) style guide is my favorite to use.”
+
+Remember, parentheses always appear in pairs. If you open a parenthesis, you need another to close it!
