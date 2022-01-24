@@ -6,6 +6,7 @@ File written by Elvis Ansima
 The output is shown on the browser console
 -->
 <!DOCTYPE html>
+
 <html>
 <head>
 	<meta charset="utf-8">
